@@ -4,7 +4,8 @@ import ReactDOM from 'react-dom/client'
 //import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
-import { RouterProvider, createBrowserRouter } from 'react-router-dom'
+import { RouterProvider, createBrowserRouter } 
+from 'react-router-dom'
 import CreateTrip from './create-trip/index.jsx'
 import Header from './components/Custom/Header'
 import { Toaster } from 'sonner'
@@ -33,7 +34,8 @@ const router=createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <GoogleOAuthProvider clientId={import.meta.env.VITE_GOOGLE_AUTH_CLIENT_ID}>
+    <GoogleOAuthProvider 
+    clientId={import.meta.env.VITE_GOOGLE_AUTH_CLIENT_ID}>
       <Header/>
       <Toaster />
       <RouterProvider router={router}/>

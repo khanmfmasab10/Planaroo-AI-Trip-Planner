@@ -62,20 +62,20 @@ function Header() {
     }
 
   return (
-    <div className='fixed top-0 left-0 w-full z-50 bg-white/50 backdrop-blur-md shadow-sm flex justify-between items-center px-5 p-3'>
+    <div className='shadow-sm flex justify-between items-center px-5 p-3'>
       <img src='/mylogo.svg' />
       <div>
         {user ?
           <div className='flex items-center gap-3'>
 
             <a href='http://localhost:5173'>
-            <Button variant="outline" className='rounded-full'><IoHome /></Button>
+            <Button variant="outline" className='rounded-full  text-black visited:text-black border-black'><IoHome /></Button>
             </a>
             <a href='/create-trip'>
-            <Button variant="outline" className='rounded-full'>+ Create Trip</Button>
+            <Button variant="outline" className='rounded-full  text-black visited:text-black border-black'>+ Create Trip</Button>
             </a>
             <a href='/my-trips'>
-            <Button variant="outline" className='rounded-full'><FcLike />My Trips</Button>
+            <Button variant="outline" className='rounded-full  text-black visited:text-black border-black '><FcLike />My Trips</Button>
             </a>
 
           <Popover>
@@ -104,7 +104,7 @@ function Header() {
                   </VisuallyHidden>
       
                   <DialogDescription>
-                    <img src="logo.svg" alt="App Logo" />
+                    <img src="mylogo.svg" alt="App Logo" />
                     <h2 className='font-bold text-lg text-gray-900 mt-7'>Sign In With Google</h2>
                     <p className='text-black'>
                       Sign in to the App with Google authentication securely

@@ -204,7 +204,7 @@ function CreateTrip() {
             </VisuallyHidden>
 
             <DialogDescription>
-              <img src="logo.svg" alt="App Logo" />
+              <img src="mylogo.svg" alt="App Logo" />
               <h2 className='font-bold text-lg text-gray-900 mt-7'>Sign In With Google</h2>
               <p className='text-black'>
                 Sign in to the App with Google authentication securely

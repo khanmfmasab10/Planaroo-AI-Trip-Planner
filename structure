@@ -1,0 +1,62 @@
+planaroo/
+├─ public/
+│  ├─ desktop3.png
+│  ├─ mydesktop.jpg
+│  ├─ mylogo.svg
+│  ├─ placeholder.jpg
+│  └─ vite.svg
+├─ src/
+│  ├─ assets/
+│  │  └─ react.svg
+│  ├─ components/
+│  │  ├─ Custom/
+│  │  │  ├─ Header.jsx
+│  │  │  └─ Hero.jsx
+│  │  └─ ui/
+│  │     ├─ button.jsx
+│  │     ├─ dialog.jsx
+│  │     ├─ input.jsx
+│  │     ├─ popover.jsx
+│  │     └─ sonner.jsx
+│  ├─ constants/
+│  │  └─ options.jsx
+│  ├─ create-trip/
+│  │  └─ index.jsx
+│  ├─ lib/
+│  │  └─ utils.js
+│  ├─ my-trips/
+│  │  ├─ components/
+│  │  │  └─ UserTripCardItem.jsx
+│  │  └─ index.jsx
+│  ├─ service/
+│  │  ├─ AIModel.jsx
+│  │  ├─ firebaseConfig.jsx
+│  │  └─ GlobalApi.jsx
+│  ├─ view-trip/
+│  │  ├─ [tripId]/
+│  │  │  └─ index.jsx
+│  │  └─ components/
+│  │     ├─ Footer.jsx
+│  │     ├─ HotelCardItem.jsx
+│  │     ├─ Hotels.jsx
+│  │     ├─ InfoSection.jsx
+│  │     ├─ PlaceCardItem.jsx
+│  │     └─ PlacesToVisit.jsx
+│  ├─ App.css
+│  ├─ App.jsx
+│  ├─ index.css
+│  └─ main.jsx
+├─ .env.local
+├─ .gitignore
+├─ components.json
+├─ eslint.config.js
+├─ index.html
+├─ jsconfig.json
+├─ package-lock.json
+├─ package.json
+├─ postcss.config.js
+├─ README.md
+├─ tailwind.config.js
+└─ vite.config.js
+
+
